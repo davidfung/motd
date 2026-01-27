@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
-import "github.com/davidfung/motd"
+import (
+	"fmt"
+
+	"github.com/davidfung/motd"
+)
 
 func main() {
-    fmt.Println(motd.next())
+	fmt.Println(motd.Next())
 }
-
