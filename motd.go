@@ -1,4 +1,4 @@
-package "github.com/davidfung/motd"
+package motd
 
 func Next() string {
     return "hooray!"
