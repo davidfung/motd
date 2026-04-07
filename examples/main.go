@@ -1,5 +1,7 @@
 package main
 
+// $ go build -o motd
+
 import (
 	"fmt"
 
