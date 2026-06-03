@@ -1,4 +1,7 @@
 motd README
 
-[ ] change example to cli 
-[ ] test install motd executable
+Publish:
+$ git tag vYY.M
+$ git push origin tag vYY.M
+
+[ ] test install motd_cli executable
