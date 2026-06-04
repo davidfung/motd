@@ -1,7 +1,9 @@
 motd README
 
 Publish:
-$ git tag vYY.M
-$ git push origin tag vYY.M
+$ git tag v1.YY.M
+$ git push origin tag v1.YY.M
 
-[ ] test install motd_cli executable
+To install the command line tool:
+$ go install github.com/davidfung/motd/cmd/motd_cli@latest
+
